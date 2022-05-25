@@ -9,7 +9,7 @@ img {
     display: flex;
     position: relative;
     top: 30px;
-    left: 10px;
+    left: 3px;
 
 
 }
@@ -60,23 +60,30 @@ img {
     top: 7px;
 }
 
-
-.empty {
-    border-radius: 50%;
-    width: 17px;
-    height: 17px;
-    background: #889592;
+.empty1 {
+    width: 20px;
+    height: 10px;
+    background: #d26768;
     position: relative;
-    bottom: 18px;
-    right: 5px
+    bottom: 10.6px;
+    right: 5px;
 
 }
-.empty1 {
-    width: 15px;
-    height: 45px;
+.empty {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
     background: #889592;
     position: relative;
-    bottom: 70px;
-    right: 3px;
+    bottom: 23px;
+    right: 12px;
 
+}
+.empty2 {
+    width: 8px;
+    height: 8px;
+    background: #889592;
+    position: relative;
+    bottom: 37px;
+    right: 8px;
 }

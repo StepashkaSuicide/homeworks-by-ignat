@@ -29,12 +29,17 @@ function Message(props: messageDataPropType) {
                 <div className={s.time}>
                     {props.time}
                 </div>
-                <div className={s.empty}>
-
-                </div>
                 <div className={s.empty1}>
 
                 </div>
+                <div className={s.empty}>
+
+                </div>
+                <div className={s.empty2}>
+
+                </div>
+
+
             </div>
 
         </div>
