@@ -2,21 +2,13 @@ import React from 'react'
 import Message from "./Message";
 import AlternativeMessage from "./AlternativeMessage";
 
-type messageDataPropType = {
-    avatar: string
-    name: string
-    message: string
-    time: number
-}
-
-
-
 const messageData = {
     avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
-    name: 'Some Name',
-    message: 'some text',
-    time: '22:00',
+    name: 'Eugen',
+    message: `TAM EST' ETOT YGOLOK`,
+    time: ' 22:01',
 }
+
 
 function HW1() {
     return (
