@@ -60,15 +60,15 @@ img {
     top: 7px;
 }
 
-.empty1 {
-    width: 20px;
-    height: 10px;
-    background: #d26768;
-    position: relative;
-    bottom: 10.6px;
-    right: 5px;
+/*.empty1 {*/
+/*    width: 20px;*/
+/*    height: 10px;*/
+/*    background: #d26768;*/
+/*    position: relative;*/
+/*    bottom: 10.6px;*/
+/*    right: 5px;*/
 
-}
+/*}*/
 .empty {
     border-radius: 50%;
     width: 12px;
@@ -80,10 +80,13 @@ img {
 
 }
 .empty2 {
-    width: 8px;
-    height: 8px;
-    background: #889592;
+    width: 40px;
+    height: 40px;
+    background: #d26768;
     position: relative;
-    bottom: 37px;
-    right: 8px;
+    bottom: 53px;
+    right: 20px;
+    clip-path: polygon(50% 1%, 100% 0%, 100% 75%, 100% 100%, 0 100%, 50% 87%, 50% 65%);
 }
+
+

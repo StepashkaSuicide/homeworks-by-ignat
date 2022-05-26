@@ -3,7 +3,7 @@ import Message from "./Message";
 import AlternativeMessage from "./AlternativeMessage";
 
 const messageData = {
-    avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
+    avatar: 'https://png.pngtree.com/element_our/png_detail/20190103/woman-hand-points-a-finger-at-something-finger-touch-screen-png_308332.jpg',
     name: 'Eugen',
     message: `TAM EST' ETOT YGOLOK`,
     time: ' 22:01',

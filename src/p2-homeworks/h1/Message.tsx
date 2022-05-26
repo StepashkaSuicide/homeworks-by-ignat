@@ -15,7 +15,7 @@ function Message(props: messageDataPropType) {
     return (
         <div className={s.all}>
             <div className={s.img}>
-                <img src={'https://png.pngtree.com/element_our/png_detail/20190103/woman-hand-points-a-finger-at-something-finger-touch-screen-png_308332.jpg'}/>
+                <img  src={props.avatar} alt={'5'}/>
             </div>
             <div className={s.oval}>
                 <div className={s.name}>
@@ -36,10 +36,7 @@ function Message(props: messageDataPropType) {
 
                 </div>
                 <div className={s.empty2}>
-
                 </div>
-
-
             </div>
 
         </div>
