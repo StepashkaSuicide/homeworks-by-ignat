@@ -1,41 +1,33 @@
 import React from 'react'
 import s from './Message.module.css'
 
-type messageDataPropType = {
+ type MessageDataType = {
     avatar: string
     name: string
     message: string
     time: string
-
 }
 
-
-function Message(props: messageDataPropType) {
+const Message = (props: MessageDataType) => {
 
     return (
-        <div className={s.all}>
-            <div className={s.img}>
-                <img  src={props.avatar} alt={'5'}/>
-            </div>
-            <div className={s.oval}>
-                <div className={s.name}>
-                    {props.name}
+        <div >
+            <div className={s.all}>
+                <div className={s.img}>
+                    <img  src={props.avatar}  alt={'img'}/>
                 </div>
-
-                <div className={s.message}>
-                    {props.message}
-                </div>
-
-                <div className={s.time}>
-                    {props.time}
-                </div>
-                <div className={s.empty1}>
-
-                </div>
-                <div className={s.empty}>
-
-                </div>
-                <div className={s.empty2}>
+                <div>
+                    <div className={s.group}>
+                        <div className={s.name}>
+                            {props.name}
+                        </div>
+                        <div className={s.message}>
+                            {props.message}
+                        </div>
+                        <div className={s.time}>
+                            {props.time}
+                        </div>
+                    </div>
                 </div>
             </div>
 

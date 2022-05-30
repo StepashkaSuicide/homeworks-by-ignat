@@ -1,92 +1,61 @@
-img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-
-}
-
-.img {
+.all{
     display: flex;
-    position: relative;
-    top: 30px;
-    left: 3px;
+    justify-content: start;
+    padding: 10px;
 
 
 }
 
-.oval {
-    background-color: #d46868;
-    border-radius: 5px;
-    width: 200px;
-    height: 50px;
-    position: relative;
-    bottom: 20px;
-    left: 45px;
+.group {
+
+    margin-left: 20px;
+    position:relative;
+    background-color: rgb(227, 227, 18);
+    color: #393838;
+    min-width: 100px;
+
+    border-radius: 10px 10px 10px 0;
+}
+.message:before {
+    content: "";
+    position:absolute;
+    bottom: 0;
+    left:-40px;
+    height:20px;
+    width: 40px;
+    border-bottom-right-radius: 65%;
+    box-shadow: 20px 0 0 0 rgb(225, 225, 19);
 }
 
-
-.all {
-    width: 250px;
-    height: 65px;
-    border-radius: 5px;
-    background-color: #899692;
-    position: relative;
-    left: 10px;
-
-}
 
 .name {
-    position: relative;
-    left: 20px;
-    font-size: 15px;
-    color: #585656;
-    top: 3px;
+    align-items: flex-start;
+    padding-top: 4px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #7a12ba;
 }
-
-.time {
-    position: relative;
-    left: 173px;
-    bottom: 2px;
-    font-size: 10px;
-    color: #7d8ba7;
-
-}
-
 .message {
-    position: relative;
-    left: 20px;
-    font-size: 13px;
-    color: #ffffff;
-    top: 7px;
+    align-items: center;
+    padding: 10px;
+}
+.time {
+    text-align: end;
+    padding-right: 6px;
+    padding-bottom: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #2d4e05;
 }
 
-/*.empty1 {*/
-/*    width: 20px;*/
-/*    height: 10px;*/
-/*    background: #d26768;*/
-/*    position: relative;*/
-/*    bottom: 10.6px;*/
-/*    right: 5px;*/
-
-/*}*/
-.empty {
+img {
+    height: 50px;
     border-radius: 50%;
-    width: 12px;
-    height: 12px;
-    background: #889592;
-    position: relative;
-    bottom: 23px;
-    right: 12px;
 
 }
-.empty2 {
-    width: 40px;
-    height: 40px;
-    background: #d26768;
-    position: relative;
-    bottom: 53px;
-    right: 20px;
-    clip-path: polygon(50% 1%, 100% 0%, 100% 75%, 100% 100%, 0 100%, 50% 87%, 50% 65%);
+.img {
+    padding-top: 20px;
+    height: 50px;
+    align-items: flex-end;
+    border-radius: 50%;
 }
-
-
