@@ -1,3 +1,16 @@
-.someClass {
+.all {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+
+}
+
+
+.priority {
+}
+
+.name {
+    width: 10%;
+
 
 }

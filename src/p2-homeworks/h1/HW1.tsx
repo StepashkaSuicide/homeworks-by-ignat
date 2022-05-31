@@ -5,7 +5,7 @@ import AlternativeMessage from "./AlternativeMessage";
 const messageData = {
     avatar: 'https://png.pngtree.com/element_our/png_detail/20190103/woman-hand-points-a-finger-at-something-finger-touch-screen-png_308332.jpg',
     name: 'Eugen',
-    message: `TAM EST' ETOT YGOLOKTAM EST' ETOT YGOLOKTAM EST' ETOT YGOLOKTAM EST' ETOT YGOLOKTAM EST' ETOT YGOLOKTAM EST' ETOT YGOLOKTAM EST' ETOT YGOLOK`,
+    message: `TAM EST' ETOT YGOLOK`,
     time: ' 22:01',
 }
 
