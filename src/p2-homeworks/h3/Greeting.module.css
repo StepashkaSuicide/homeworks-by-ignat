@@ -4,4 +4,27 @@
 
 .error {
     border: 1px solid red;
+
+}
+
+.style {
+    font-size: 13px;
+    color: red;
+}
+.total {
+    margin-left:  7px;
+    color: #10adf8;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 3px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+    border-radius: 25px;
 }
