@@ -1,4 +1,4 @@
-import React, {ChangeEvent, useState} from 'react'
+import React, {ChangeEvent, KeyboardEvent, useState} from 'react'
 import Greeting from './Greeting'
 import {UserType} from "./HW3";
 
@@ -17,6 +17,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     const [error, setError] = useState<string>('') // need to fix any
 
     const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => {
+        setError('')
         setName(e.currentTarget.value)
         // need to fix any сделать проверку:
         // 1) если имя нормальное - то добавить имя
@@ -26,15 +27,18 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
         // need to fix
     }
 
+
     const addUser = () => {
 
         if (name.trim() === '') {
+            setName('')
             return setError('wrong name')
         }
-        alert('Hello')
+        alert(`Hello ${name}`)
         addUserCallback(name)
-        setError('')
+
         setName('')
+
 
         // need to fix
     }

@@ -1,4 +1,4 @@
-import React, {ChangeEvent} from 'react'
+import React, {ChangeEvent, KeyboardEvent} from 'react'
 import s from './Greeting.module.css'
 
 
@@ -17,9 +17,12 @@ const Greeting: React.FC<GreetingPropsType> = (
     const inputClass = error ? s.error : '' // need to fix with (?:)
 
 
+
+
+
     return (
         <div>
-            <input value={name} onChange={setNameCallback} className={inputClass}/>
+            <input  value={name} onChange={setNameCallback} className={inputClass}/>
             <button className={s.button} onClick={addUser}>add</button>
             <span className={s.total}>{totalUsers}</span>
             <div className={s.style}>{error}</div>
