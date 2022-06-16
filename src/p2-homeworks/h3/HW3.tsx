@@ -17,17 +17,11 @@ function HW3() {
         let newUser = {_id: v1(), name: name}
         setUsers([newUser, ...users])
         console.log(name)
-
-
-        // need to fix
-
     }
     return (
         <div>
             <hr/>
             homeworks 3
-
-            {/*should work (должно работать)*/}
             <GreetingContainer users={users} addUserCallback={addUserCallback}/>
 
             <hr/>
