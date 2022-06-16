@@ -22,7 +22,7 @@ function HW10() {
                     <div>крутилка...</div>
                 ) : (
                     <div>
-                        <SuperButton onClick={setLoading}>set loading...</SuperButton>
+                        <SuperButton  onClick={setLoading}>set loading...</SuperButton>
                     </div>
                 )
             }
