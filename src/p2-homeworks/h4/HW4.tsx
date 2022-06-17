@@ -45,9 +45,7 @@ function HW4() {
 
                 <SuperButton> default </SuperButton>
 
-                <SuperButton red onClick={showAlert}>
-                    delete
-                </SuperButton>
+                <SuperButton red onClick={showAlert}> delete </SuperButton>
 
                 <SuperButton disabled> disabled </SuperButton>
 
