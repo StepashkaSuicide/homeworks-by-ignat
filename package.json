@@ -19,7 +19,7 @@
     "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://StepashkaSuicide.github.io/https/homeworks-by-ignat",
+  "homepage": "https://stepashkasuicide.github.io/homeworks-by-ignat/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
