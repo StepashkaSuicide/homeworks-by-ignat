@@ -10,6 +10,7 @@ import {Junior} from './pages/Junior';
 import {JuniorHigh} from './pages/JuniorHigh';
 import HW6 from '../h6/HW6';
 import HW7 from '../h7/HW7';
+import HW8 from '../h8/HW8';
 
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
@@ -31,6 +32,7 @@ function Pages() {
                 <Route path={'/homeworks4'} element={<HW4/>}/>
                 <Route path={'/homeworks6'} element={<HW6/>}/>
                 <Route path={'/homeworks7'} element={<HW7/>}/>
+                <Route path={'/homeworks8'} element={<HW8/>}/>
                 <Route path={'/junior'} element={<Junior/>}/>
                 <Route path={'/juniorhigh'} element={<JuniorHigh/>}/>
                 // add routes
