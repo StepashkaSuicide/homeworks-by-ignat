@@ -36,7 +36,7 @@ function Pages() {
                 <Route path={'/homeworks7'} element={<HW7/>}/>
                 <Route path={'/homeworks8'} element={<HW8/>}/>
                 <Route path={'/homeworks9'} element={<HW9/>}/>
-                <Route path={'/homeworks9'} element={<HW10/>}/>
+                <Route path={'/homeworks10'} element={<HW10/>}/>
                 <Route path={'/junior'} element={<Junior/>}/>
                 <Route path={'/juniorhigh'} element={<JuniorHigh/>}/>
                 // add routes
