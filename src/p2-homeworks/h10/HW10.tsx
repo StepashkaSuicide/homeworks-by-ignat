@@ -3,6 +3,7 @@ import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import {useDispatch, useSelector} from 'react-redux';
 import {AppStoreType} from './bll/store';
 import {loadingAC} from './bll/loadingReducer';
+import preloader from './images/preloader.gif'
 
 function HW10() {
     // useSelector, useDispatch
@@ -27,7 +28,7 @@ return (
         {/*should work (должно работать)*/}
         {loading
             ? (
-                <div><img src="https://i.gifer.com/origin/b4/b4d657e7ef262b88eb5f7ac021edda87.gif" alt="loader"/></div>
+                <div><img src={preloader} alt="loader"/></div>
             ) : (
                 <div>
                     <SuperButton onClick={setLoading}>set loading...</SuperButton>
