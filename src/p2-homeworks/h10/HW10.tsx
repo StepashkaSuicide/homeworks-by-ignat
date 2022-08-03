@@ -20,7 +20,7 @@ function HW10() {
     }
 
 return (
-    <div>s
+    <div>
         <hr/>
         homeworks 10
 
