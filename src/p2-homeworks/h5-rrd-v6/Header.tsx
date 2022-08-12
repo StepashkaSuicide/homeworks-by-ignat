@@ -15,6 +15,8 @@ function Header() {
             <NavLink className={({ isActive }) =>isActive ? s.active : s.navlink} to='/homeworks8/'>Homeworks 8 </NavLink>
             <NavLink className={({ isActive }) =>isActive ? s.active : s.navlink} to='/homeworks9/'>Homeworks 9 </NavLink>
             <NavLink className={({ isActive }) =>isActive ? s.active : s.navlink} to='/homeworks10/'>Homeworks 10 </NavLink>
+            <NavLink className={({ isActive }) =>isActive ? s.active : s.navlink} to='/homeworks11/'>Homeworks 11 </NavLink>
+            <NavLink className={({ isActive }) =>isActive ? s.active : s.navlink} to='/homeworks12/'>Homeworks 12 </NavLink>
             <NavLink className={({ isActive }) =>isActive ? s.active : s.navlink} to='/Junior/'>Junior </NavLink>
             <NavLink className={({ isActive }) =>isActive ? s.active : s.navlink} to='/JuniorHigh/'>Junior High </NavLink>
         </div>

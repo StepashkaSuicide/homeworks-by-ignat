@@ -9,6 +9,12 @@
 .red {
     background: lightcoral;
 }
+.blue {
+    background: #00eaff;
+}
+.orange {
+    background: #ff6600;
+}
 
 .red-text {
     color: aqua;

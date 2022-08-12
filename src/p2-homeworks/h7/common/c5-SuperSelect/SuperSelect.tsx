@@ -24,14 +24,6 @@ const mappedOptions: any[] = options ? options.map((t, i)=> (
     <option key={t + '-' + i} value={t}>{t}</option>
 )):[]
 
-
-
-
-
-
-
-
-
             return(
     <select onChange={onChangeCallback} {...restProps}>
         {mappedOptions}
