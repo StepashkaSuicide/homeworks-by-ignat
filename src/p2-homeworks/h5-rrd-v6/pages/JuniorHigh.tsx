@@ -1,9 +1,10 @@
 import React from 'react';
+import {Request} from '../../h13/Request/Request';
 
-export const JuniorHigh = () => {
+export const HW13 = () => {
     return (
         <div>
-            джун+
+            <Request />
         </div>
     );
 };

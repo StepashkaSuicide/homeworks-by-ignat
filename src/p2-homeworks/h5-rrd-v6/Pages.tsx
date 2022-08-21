@@ -7,7 +7,7 @@ import HW2 from '../h2/HW2';
 import HW3 from '../h3/HW3';
 import HW4 from '../h4/HW4';
 import {Junior} from './pages/Junior';
-import {JuniorHigh} from './pages/JuniorHigh';
+import {HW13} from './pages/JuniorHigh';
 import HW6 from '../h6/HW6';
 import HW7 from '../h7/HW7';
 import HW8 from '../h8/HW8';
@@ -41,8 +41,9 @@ function Pages() {
                 <Route path={'/homeworks10'} element={<HW10/>}/>
                 <Route path={'/homeworks11'} element={<HW11/>}/>
                 <Route path={'/homeworks12'} element={<HW12/>}/>
+                <Route path={'/homeworks13'} element={<HW13/>}/>
                 <Route path={'/junior'} element={<Junior/>}/>
-                <Route path={'/juniorhigh'} element={<JuniorHigh/>}/>
+                {/*<Route path={'/juniorhigh'} element={<JuniorHigh/>}/>*/}
                 // add routes
 
                 {/*он отрисуется если пользователь захочет попасть на несуществующую страницу*/}
